@@ -6,7 +6,7 @@ import cv2
 print("imported cv2")
 
 # Loading pre-trained data
-trainedFaceData = cv2.CascadeClassifier('FaceDetection/haarcascade_frontalface_default.xml')
+trainedFaceData = cv2.CascadeClassifier('RealTimeFaceDetection/haarcascade_frontalface_default.xml')
 print("loaded pre-trained data")
 
 # launch webcam
