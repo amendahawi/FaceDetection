@@ -1,6 +1,6 @@
 # Machine Learning Face Detection
 ## Overview
-This repository contains a simple Python script for face detection using the OpenCV library. The script utilizes a pre-trained Haar Cascade classifier to identify faces in an input image. This project was created by Abdul Mendahawi in 2021.
+This repository contains a simple Python script for face detection using the OpenCV library. The script utilizes a pre-trained Haar Cascade classifier to identify faces in an input image.
 
 ### Prerequisites
 Before running the script, make sure you have the required dependencies installed:
