@@ -5,20 +5,21 @@ This repository contains a simple Python script for face detection using the Ope
 ### Prerequisites
 Before running the script, make sure you have the required dependencies installed:
 
-bash
-Copy code
+```
 pip install opencv-python
+```
 
 ## Usage
 Clone the repository:
-bash
-Copy code
+```
 git clone https://github.com/your-username/face-detection.git
 cd face-detection
+```
 Run the script:
-bash
-Copy code
+```
 python face_detection.py
+```
+
 View the detected faces:
 The script will load a pre-trained Haar Cascade classifier for face detection and apply it to the specified image (MICHIGAN-protest.jpg in this example). Detected faces will be outlined with green rectangles, and the resulting image will be displayed in a window titled "Face Detector app."
 
