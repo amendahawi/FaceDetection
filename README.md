@@ -1,2 +1,58 @@
-# FaceDetection
-This repository contains code to a beginner level face detection software that isn't too advanced. This was made for learning purposes hence why I added comments to explain the purpose of each line of code.
+# Machine Learning Face Detection
+## Overview
+This repository contains a simple Python script for face detection using the OpenCV library. The script utilizes a pre-trained Haar Cascade classifier to identify faces in an input image. This project was created by Abdulrahman Mendahawi in 2021.
+
+### Prerequisites
+Before running the script, make sure you have the required dependencies installed:
+
+bash
+Copy code
+pip install opencv-python
+
+## Usage
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/face-detection.git
+cd face-detection
+Run the script:
+bash
+Copy code
+python face_detection.py
+View the detected faces:
+The script will load a pre-trained Haar Cascade classifier for face detection and apply it to the specified image (MICHIGAN-protest.jpg in this example). Detected faces will be outlined with green rectangles, and the resulting image will be displayed in a window titled "Face Detector app."
+
+Exit the application:
+Press any key to close the displayed image window and exit the application.
+
+## Code Explanation
+The script follows these main steps:
+
+Import Libraries:
+
+Imports the OpenCV library (cv2) for image processing.
+Load Pre-trained Data:
+
+Loads the Haar Cascade classifier for frontal face detection.
+Choose Image to Detect Faces In:
+
+Selects an image (in this case, MICHIGAN-protest.jpg) for face detection.
+Convert Image to Grayscale:
+
+Converts the selected image to grayscale for better face detection accuracy.
+Detect Faces:
+
+Applies the pre-trained face detection classifier to identify face coordinates in the grayscale image.
+Draw Rectangles Around Detected Faces:
+
+Draws green rectangles around the detected faces on the original image.
+Display the Resulting Image:
+
+Opens a window titled "Face Detector app" to display the original image with outlined faces.
+Wait for User Input and Exit:
+
+Waits for any key press, then closes the displayed image window and exits the application.
+
+## Note
+Ensure that the paths to the Haar Cascade XML file (haarcascade_frontalface_default.xml) and the input image are correct.
+Feel free to customize the script or integrate it into your projects for face detection purposes.
