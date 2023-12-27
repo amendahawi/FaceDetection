@@ -29,30 +29,22 @@ Press any key to close the displayed image window and exit the application.
 ## Code Explanation
 The script follows these main steps:
 
-Import Libraries:
-
-Imports the OpenCV library (cv2) for image processing.
-Load Pre-trained Data:
-
-Loads the Haar Cascade classifier for frontal face detection.
-Choose Image to Detect Faces In:
-
-Selects an image (in this case, MICHIGAN-protest.jpg) for face detection.
-Convert Image to Grayscale:
-
-Converts the selected image to grayscale for better face detection accuracy.
-Detect Faces:
-
-Applies the pre-trained face detection classifier to identify face coordinates in the grayscale image.
-Draw Rectangles Around Detected Faces:
-
-Draws green rectangles around the detected faces on the original image.
-Display the Resulting Image:
-
-Opens a window titled "Face Detector app" to display the original image with outlined faces.
-Wait for User Input and Exit:
-
-Waits for any key press, then closes the displayed image window and exits the application.
+**1. Import Libraries:**
+  Imports the OpenCV library (cv2) for image processing.
+**2. Load Pre-trained Data:**
+  Loads the Haar Cascade classifier for frontal face detection.
+**3. Choose Image to Detect Faces In:**
+  Selects an image (in this case, MICHIGAN-protest.jpg) for face detection.
+**4. Convert Image to Grayscale:**
+  Converts the selected image to grayscale for better face detection accuracy.
+**5. Detect Faces:**
+  Applies the pre-trained face detection classifier to identify face coordinates in the grayscale image.
+**6. Draw Rectangles Around Detected Faces:**
+  Draws green rectangles around the detected faces on the original image.
+**7. Display the Resulting Image:**
+  Opens a window titled "Face Detector app" to display the original image with outlined faces.
+**8. Wait for User Input and Exit:**
+  Waits for any key press, then closes the displayed image window and exits the application.
 
 ## Note
 Ensure that the paths to the Haar Cascade XML file (haarcascade_frontalface_default.xml) and the input image are correct.
