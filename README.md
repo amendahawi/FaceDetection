@@ -13,11 +13,11 @@ pip install opencv-python
 Clone the repository:
 ```
 git clone https://github.com/your-username/face-detection.git
-cd face-detection
+cd FaceDetection
 ```
 Run the script:
 ```
-python face_detection.py
+python ImageFaceDetection.py
 ```
 
 View the detected faces:
